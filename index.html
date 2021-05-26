@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<!-- Sur une idée originale de Jean-Manuel Meny et Ludovic Fasquelle -->
+
+<head>
+	<meta charset="utf-8">
+	<title>NSI Remi</title>
+    <link rel="icon" href="./images/r.ico">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap&family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet"> 
+
+</head>
+
+
+<body>
+    
+    
+	<header id="header">
+		<h1 class="name-page">Ma Page Web</h1>
+        
+		<p id="eleve">Guillou Rémi</p>
+        <h1 id="heure"></h1>
+	</header>
+
+    <section class="main-part">
+        <div class="info">
+
+            <div id="mes-infos">
+                <img src="./images/photo_moi.jpg" id='my-img'>
+                <h1 class="text">Guillou Remi 1G3</h1>
+                <h2>Specialites: </h2>
+                <ul id="specialites-list">
+                    <li>Maths</li>
+                    <li>Physique</li>
+                    <li>NSI</li>
+                </ul>
+                <article id="orientation">
+                    <h2 class="centered">Mon orientation Post-Bac:</h2>
+                    <p>Apres le bac j’aimerai aller étudier l’informatique à l’étranger. Le plus pratique pour moi serait un pays anglophone, c’est pour cela que j’ai cherché des écoles en Angleterre.
+                        <br>
+                        Pour préparer ma candidature a des universités anglaises j’ai passé un test d’anglais : <a href="https://www.britishcouncil.fr/examen/ielts" target="_blank">l’IELT</a> au terme duquel j’ai eu un diplôme prouvant mon niveau d’anglais. 
+                        <br>
+                        L’université ou je veux le plus rentrer est <a href="https://www.ox.ac.uk/" target="_blank">Oxford</a>. Pour cela j’ai commencé à préparer un dossier et à m’entrainer pour le test d’admission de maths. 
+                        <br>
+                        D’autres universités qui m’intéressent sont <a href="https://www.ucl.ac.uk/" target="_blank">l’University College London</a> et <a href="https://www.imperial.ac.uk/" target="_blank">l’Imperial College London</a>. 
+                        <br>
+                        Cependant si je n’arrive pas à entrer dans une école à l’étranger je chercherai une prépa en France. </p>
+                </article>
+
+                <div id="centre-interet">
+                    <h2 class="centered">Mes centres d'intérêt:</h2>
+
+
+
+                    <div id="interets">
+                        <div id="list-interets">
+                            <div>
+                                <button onclick="changeInterets('animal')">Animaux</button>
+                            </div>
+                            <div>
+                                <button onclick="changeInterets('jv')">Jeux Videos</button>
+                            </div>
+                            <div>
+                                <button onclick="changeInterets('livres')">Livres</button>
+                            </div>
+                            <div >
+                                <button onclick="changeInterets('prog')">Programmation</button>
+                            </div>
+                        </div>
+
+
+                        <div id="aff-interets">
+                            <div></div>
+                            
+
+
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <h4>Page Principale</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="histoire.html"><h4>Histoire</h4></a>
+                </li>
+                <li>
+                    <a href="sources.html"><h4>Sources</h4></a>
+                </li>
+
+
+
+            </ul>
+
+
+        </nav>
+
+
+
+    </section>
+    
+
+
+    
+    
+    
+
+	 
+	
+
+
+	<footer>
+        <img src="./images//creative common.png" id = "creative">
+        <a href="https://www.ac-paris.fr/serail/jcms/s6_201071/fr/accueil" target="_blank" id="lycee">Lycée Arago</a> 
+        <a href="https://github.com/Remix375?tab=repositories" id="ghLink" target="_blank"><img src="./images/ghlogo.png" id="gh">Rémix </a> 
+	</footer>
+
+
+	 
+
+</body>
+<script src="./scripts/script.js"></script>
+
+<script src="./scripts/horloge.js"></script>
+</html>
+
